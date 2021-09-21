@@ -3,11 +3,7 @@
 
 int main(void)
 {
-    int n1;
-    int n2;
-    int mayor;
-    int menor;
-
+    int n1, n2, mayor, menor;
     printf("Este programa recibe dos enteros y verifica si uno es multiplo del otro.\n");
     printf("Por favor introduzca el primer numero:\n");
     scanf("%d", &n1);
@@ -16,7 +12,6 @@ int main(void)
     mayor = n1;
     menor = n2;
     
-     
      if ( n2 > n1 )
           {        
          mayor = n2;
@@ -24,14 +19,13 @@ int main(void)
           }        
 
      if (0 == mayor % menor){
-      printf("\nEl numero %d es multiplo del numero %d \n", mayor, menor);
+      printf("\n El numero %d es multiplo del numero %d \n", mayor, menor);
      
      }
       else if (0 != mayor % menor){
-      printf("\nLos numeros no son multiplos.");
+      printf("\n Los numeros no son multiplos.");
  
       }
-
 
     exit(EXIT_SUCCESS);
 }

@@ -14,7 +14,7 @@ int main()
    printf("Por favor introduzca el numero %d: ", contador);
    scanf("%d",&x);
 
-     if ((5 <= x) && (30 >= x))
+     if ((30 >= x))
          {    
      for ( int i = 1; i <= x; i++ )
       printf("*");
@@ -22,5 +22,5 @@ int main()
       contador = contador+1;
          }     
     } 
-    scanf("%d",&x);
+   exit(EXIT_SUCCESS);
 }

@@ -3,10 +3,7 @@
 float conversion(float x);
 int main(void)
 {
-    float n;
-    float m;
-    float c;
-    float up;
+    float n,m,c,up;
     char nom[20];
 
     printf("Ingrese la velocidad de descarga en megabits por segundo (Mbps):\n");

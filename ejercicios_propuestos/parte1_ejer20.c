@@ -6,8 +6,7 @@ float suma(int x, int terminos);
 
 int main() {
 
-    int x;
-    int terminos;
+    int x, terminos;
     
     printf("\n Ingrese el valor de entrada de x: ");
     scanf("%d", &x);

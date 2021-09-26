@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 double conversion(int x);
+
 int main(void)
 {
     int n;

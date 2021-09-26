@@ -8,6 +8,6 @@ int main(void)
     printf("Escriba el número que desea convertir: ");
     scanf("%f", &x);
     
-     printf("El valor de %f en notación cientifica es %E \n", x,x);
+    printf("El valor de %f en notación cientifica es %E \n", x,x);
   
 }

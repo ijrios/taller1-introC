@@ -3,9 +3,7 @@
 
 int main(void)
 { 
-      int x;
-      int y;
-      int z;
+      int x, y, z;
 
       printf("\n Este programa encuentra el menor de varios enteros\n");
       printf("\n Especifique el número de valores restantes: \n");

@@ -15,7 +15,7 @@ int main(void)
     up = c/n;
     printf("A %.2f megabits por segundo, un archivo de: %.2f se descarga en: %.2f",n, m,up);
 
-    exit(EXIT_SUCCESS);
+    exit(-1);
 }
 
 float conversion(float x) {

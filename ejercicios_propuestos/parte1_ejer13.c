@@ -22,5 +22,5 @@ int main()
       contador = contador+1;
          }     
     } 
-   exit(EXIT_SUCCESS);
+   exit(-1);
 }

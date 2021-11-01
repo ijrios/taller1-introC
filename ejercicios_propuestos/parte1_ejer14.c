@@ -19,11 +19,11 @@ int main(){
     for (int j = 1; j <= 500; j++)  
      for (int i = 1; i <= n; i++) {
         d = multiplos(x,j); 
-      if(d = 2){      
+      if(d == 2){      
       printf ("%d    %d \n ",j,i);
       j = j + 1;
-      } else if(d = 2){
-      printf ("%c    %d \n ","PUM",i);
+      } else if(d == 1){
+      printf ("%s    %d \n ","PUM",i);
       j = j + 1;
       }
      
@@ -59,4 +59,3 @@ int NumeroAleatorio()
     x = rand() % 10;
     return x;
 }
-

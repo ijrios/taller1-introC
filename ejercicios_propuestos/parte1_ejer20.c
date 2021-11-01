@@ -34,7 +34,7 @@ float suma(int x, int terminos) {
 
 	for (int i = 1; i < terminos; i++) {
            signo = -1 * signo;
-           formula = signo * (pow(x, y)) / factorial(y);
+           formula = signo * (pow(x, y))/factorial(y);
 	   suma = suma + formula;
            y = y + 2;
 	}

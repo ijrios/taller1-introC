@@ -130,7 +130,7 @@ void porcentaje(){
     printf("%d\n",jose);
     printf("%d\n",dxorj);
     r = (float)jose/(float)dxorj;
-    printf("Porcentaje de respuestas correctas %2.0f \n",r*100);
+    printf("Porcentaje de respuestas correctas %f \n",r*100);
     if(r<0.75){
         printf("Por favor pídele ayuda al instructor\n");
     }

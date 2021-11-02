@@ -14,16 +14,19 @@ int main(){
   printf("El numero elegido para el PUM es %d \n", x);
   printf("Ingrese el numero de jugadores: ");
   scanf("%d",&n);
+  printf("Jugada   Jugador ");
+  printf ("\n ");
+  
   
 
     for (int j = 1; j <= 500; j++)  
      for (int i = 1; i <= n; i++) {
         d = multiplos(x,j); 
       if(d == 2){      
-      printf ("%d    %d \n ",j,i);
+      printf ("%d      %d \n ",i,j);
       j = j + 1;
       } else if(d == 1){
-      printf ("%s    %d \n ","PUM",i);
+      printf ("%d      %s \n ",i,"PUM");
       j = j + 1;
       }
      

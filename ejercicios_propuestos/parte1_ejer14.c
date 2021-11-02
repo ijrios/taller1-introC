@@ -14,7 +14,7 @@ int main(){
   printf("El numero elegido para el PUM es %d \n", x);
   printf("Ingrese el numero de jugadores: ");
   scanf("%d",&n);
-  printf("Jugada   Jugador ");
+  printf("Jugador     Jugada");
   printf ("\n ");
   
   

@@ -8,8 +8,8 @@ int NumeroAleatorio();
 int Mensajes();
 void correcto(int);
 void incorrecto(int);
-int duber = 0; 
-int jose = 0;
+int d = 0; 
+int j = 0;
 int dxorj = 0;
 float r = 0.0;
 
@@ -82,7 +82,7 @@ int Mensajes()
 
 void correcto(int n)
 {
-    jose+=1;
+    j+=1;
     dxorj+=1;
     switch (n)
     {
@@ -103,7 +103,7 @@ void correcto(int n)
 
 void incorrecto(int n)
 {
-    duber+=1;
+    d+=1;
     dxorj+=1;
     switch (n)
     {
@@ -127,9 +127,9 @@ void porcentaje(){
     if(dxorj==0){
         exit(-1);
     }
-    printf("%d\n",jose);
+    printf("%d\n",j);
     printf("%d\n",dxorj);
-    r = (float)jose/(float)dxorj;
+    r = (float)j/(float)dxorj;
     printf("Porcentaje de respuestas correctas %f \n",r*100);
     if(r<0.75){
         printf("Por favor pídele ayuda al instructor\n");
